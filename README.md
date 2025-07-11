@@ -73,16 +73,6 @@ Olá! Sou um desenvolvedor júnior de 23 anos apaixonado por transformar ideias 
   
 </div>
 
-## 💼 Experiência Profissional
-
-- 🔹 **Desenvolvedor Júnior** - Empresa XYZ *(2023 - Atual)*
-  - Desenvolvimento de aplicações web utilizando Python e React
-  - Manutenção e otimização de servidores e redes
-  
-- 🔹 **Estagiário de TI** - Empresa ABC *(2022 - 2023)*
-  - Suporte técnico e implementação de soluções em rede
-  - Desenvolvimento de scripts de automação em Python
-
 ## 🎯 Metas para 2025
 
 - Aprofundar conhecimentos em Arquitetura de Software
