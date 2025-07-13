@@ -1,0 +1,46 @@
+# Nome do Workflow
+name: Generate Snake Animation
+
+# Controles de quando a action será executada
+on:
+  # Executa automaticamente a cada 12 horas
+  schedule:
+    - cron: "0 */12 * * *"
+
+  # Permite que você execute este workflow manualmente na aba Actions
+  workflow_dispatch:
+
+  # Também executa quando há um push para a branch principal
+  push:
+    branches:
+      - main # ou master, dependendo do nome da sua branch principal
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Action que gera a animação de cobra
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          # O seu nome de usuário do GitHub
+          github_user_name: ${{ github.repository_owner }}
+
+          # Lista de saídas desejadas
+          # A animação será gerada em formato svg e gif
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      # Action para publicar os arquivos gerados no repositório
+      - name: Push to repo
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          # A pasta que contém os arquivos gerados
+          target_branch: output
+          build_dir: dist
+        env:
+          # Token de acesso para permitir que a action faça push para o seu repositório
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
