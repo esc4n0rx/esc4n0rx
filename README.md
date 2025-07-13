@@ -68,12 +68,7 @@ Olá, sou Paulo! Um desenvolvedor Full Stack de 23 anos, focado em construir sol
 </div>
 
 <div align="center">
-<!--
-IMPORTANTE: Para a animação da cobra funcionar, você precisa configurar uma GitHub Action no seu repositório.
-Crie o arquivo .github/workflows/main.yml e use a action platane/snk para gerar a imagem.
-O caminho da imagem abaixo deve apontar para a imagem gerada no seu repositório.
--->
-<img src="https://github.com/esc4n0rx/esc4n0rx/blob/output/github-contribution-grid-snake.svg" alt="Snake animation">
+  <img src="https://raw.githubusercontent.com/esc4n0rx/esc4n0rx/output/github-contribution-grid-snake.svg" alt="Snake animation">
 </div>
 
 <div align="center">
