@@ -15,6 +15,10 @@ on:
     branches:
       - main # ou master, dependendo do nome da sua branch principal
 
+# Permissões para a Action poder escrever no repositório
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
