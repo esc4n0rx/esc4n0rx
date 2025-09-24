@@ -11,7 +11,7 @@
 <img align="right" alt="Coding GIF" width="45%" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
 👨‍💻 Sobre Mim
-Olá, sou Paulo! Um desenvolvedor Full Stack de 23 anos, focado em construir soluções digitais robustas e eficientes. Minha paixão é usar tecnologia para resolver problemas complexos, sempre com foco em código limpo e nas melhores práticas de mercado.
+Olá, sou Paulo! Um desenvolvedor Full Stack de 25 anos, focado em construir soluções digitais robustas e eficientes. Minha paixão é usar tecnologia para resolver problemas complexos, sempre com foco em código limpo e nas melhores práticas de mercado.
 
 🚀 Desenvolvendo aplicações completas com Python (Django) no back-end e React no front-end.
 
